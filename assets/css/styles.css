@@ -33,7 +33,6 @@ h1 {
   font-size: 40px;
   font-weight: 700;
   color: #fff;
-  background-color: #000;
   text-transform: uppercase;
 }
 
@@ -91,10 +90,9 @@ h4 {
   font-weight: 200;
   font-size: 12px;
   font-family: "Roboto Slab", serif;
-  font-weight: 200;
 }
 
-.top-nav .container {
+.top-nav__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -105,7 +103,7 @@ h4 {
   border-bottom: 0.5px solid #fff;
 }
 
-.social-links {
+.top-nav__social-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,7 +116,7 @@ h4 {
   align-items: center;
 }
 
-.right {
+.top-nav__right-side {
   display: flex;
   gap: 20px;
   justify-content: center;
