@@ -99,6 +99,7 @@ h4 {
   justify-content: space-between;
   align-items: center;
   padding-top: 25px;
+  padding-bottom: 5px;
   width: 100%;
   max-width: 57%;
   border-bottom: 0.5px solid #fff;
@@ -120,6 +121,8 @@ h4 {
 .right {
   display: flex;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .phone {
