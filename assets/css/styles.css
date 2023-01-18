@@ -70,6 +70,14 @@ h4 {
   color: #fff;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white-text {
+  color: #fff;
+}
+
 .hero-banner {
   background-image: url(../images/image.png);
   background-color: #cccccc;
@@ -78,10 +86,6 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-}
-
-.follow {
-  text-transform: uppercase;
 }
 
 .top-nav {
@@ -115,9 +119,4 @@ h4 {
   gap: 20px;
   justify-content: center;
   align-items: center;
-}
-
-.phone {
-  color: #fff;
-  text-transform: uppercase;
 }
