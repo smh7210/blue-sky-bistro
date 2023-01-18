@@ -110,12 +110,6 @@ h4 {
   gap: 20px;
 }
 
-.social-links li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .top-nav__right-side {
   display: flex;
   gap: 20px;
