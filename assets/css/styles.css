@@ -22,11 +22,10 @@ li {
 
 li a {
   color: #fff;
-  background-color: #000;
 }
 
 li a:hover {
-  color: #ffd71b;
+  color: rgb(255, 215, 27);
   text-decoration: none;
 }
 
@@ -34,7 +33,6 @@ h1 {
   font-size: 40px;
   font-weight: 700;
   color: #fff;
-  background-color: #000;
   text-transform: uppercase;
 }
 
@@ -70,4 +68,55 @@ h4 {
   background-color: #000;
   border-color: #000;
   color: #fff;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.hero-banner {
+  background-image: url(../images/image.png);
+  background-color: #cccccc;
+  height: 540px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  font-size: 12px;
+  font-family: "Roboto Slab", serif;
+}
+
+.top-nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  width: 100%;
+  max-width: 57%;
+  border-bottom: 0.5px solid #fff;
+}
+
+.top-nav__social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.top-nav__right-side {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
