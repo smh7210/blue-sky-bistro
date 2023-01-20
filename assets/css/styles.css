@@ -81,7 +81,7 @@ h4 {
 .hero-banner {
   background-image: url(../images/image.png);
   background-color: #cccccc;
-  height: 540px;
+  height: 648px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,5 +118,37 @@ h4 {
   display: flex;
   gap: 20px;
   justify-content: center;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  font-family: "roboto slab", sans-serif;
+  font-weight: 200;
+  margin-top: 10px;
+}
+
+.blue-sky-bistro-logo {
+  height: 77px;
+  width: 107px;
+}
+
+.main-nav__container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  width: 100%;
+  max-width: 57%;
+}
+
+.main-nav__items {
+  display: flex;
+  gap: 10px;
+}
+
+.main-nav a {
+  display: flex;
+  gap: 10px;
   align-items: center;
 }
