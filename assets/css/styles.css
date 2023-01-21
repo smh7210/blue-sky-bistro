@@ -152,3 +152,15 @@ h4 {
   gap: 10px;
   align-items: center;
 }
+
+.hero-banner__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 50%;
+}
+
+.hero-banner__description {
+  font-weight: 200;
+}
