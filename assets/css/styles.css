@@ -30,7 +30,7 @@ li a:hover {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 55px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
@@ -157,10 +157,16 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
-  max-width: 50%;
+  margin-top: 50px;
+  margin-left: 28%;
+  gap: 5px;
 }
 
 .hero-banner__description {
   font-weight: 200;
+  font-size: 19px;
+  line-height: 19px;
+  font-family: "roboto", sans-serif;
+  width: 377px;
+  height: auto;
 }
