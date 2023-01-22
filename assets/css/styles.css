@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 18px;
   line-height: 1.75em;
   text-transform: uppercase;
   font-weight: 700;
@@ -62,6 +62,8 @@ h4 {
   font-size: 13px;
   line-height: 1.7em;
   text-transform: uppercase;
+  align-self: flex-start;
+  padding: 10px 47px;
 }
 
 .btn-primary:hover {
@@ -174,4 +176,31 @@ h4 {
 .features__image {
   width: 347px;
   height: 231px;
+}
+
+.features {
+  margin: 50px 0;
+  display: flex;
+}
+
+.features__items {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.features__description {
+  width: 346.66px;
+  font-family: "roboto slab", sans-serif;
+  font-weight: 400;
+  color: #707070;
+  line-height: 27px;
+  font-size: 15px;
 }
