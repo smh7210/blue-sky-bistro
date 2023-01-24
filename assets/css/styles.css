@@ -208,3 +208,21 @@ h4 {
 .features__heading {
   font-size: 18px;
 }
+
+.daily-special {
+  background: url(../images/background-for-daily.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  align-items: center;
+  gap: 15px;
+  font-weight: 200;
+}
+
+.daily-special__heading {
+  margin: 15px;
+}
