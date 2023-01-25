@@ -245,10 +245,34 @@ h4 {
 .intro {
   margin: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro__container {
   display: flex;
+  gap: 25px;
+}
+
+.intro__description {
+  width: 535px;
+  color: #707070;
+  font-family: "roboto slab", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.intro__left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.intro__right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .deli-hours {
@@ -276,6 +300,24 @@ h4 {
   flex-direction: column;
   gap: 15px;
   padding: 10px;
+}
+
+.day {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.deli-hours__list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clock-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .day {
