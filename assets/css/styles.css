@@ -43,6 +43,13 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 20px;
+  line-height: 1.67em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 h4 {
   font-size: 18px;
   line-height: 1.78em;
@@ -76,8 +83,16 @@ h4 {
   text-transform: uppercase;
 }
 
-.white-text {
+.primary-text {
   color: #fff;
+}
+
+.secondary-text {
+  color: #ffd71b;
+}
+
+.other-text {
+  color: #000;
 }
 
 .hero-banner {
@@ -225,4 +240,89 @@ h4 {
 
 .daily-special__heading {
   margin: 15px;
+}
+
+.intro {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro__container {
+  display: flex;
+  gap: 25px;
+}
+
+.intro__description {
+  width: 535px;
+  color: #707070;
+  font-family: "roboto slab", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+.intro__left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.intro__right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.deli-hours {
+  width: 535px;
+
+  background-image: url(../images/wh-pattern.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 28px;
+}
+
+.deli-hours__container {
+  border: 1px solid #707070;
+  display: flex;
+  flex-direction: column;
+}
+
+.deli-hours__heading {
+  align-self: center;
+  padding-top: 10px;
+}
+
+.deli-hours__times {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  font-family: "roboto slab", sans-serif;
+  font-weight: 200;
+}
+
+.day {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.deli-hours__list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clock-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.day {
+  display: flex;
+  justify-content: space-between;
 }
