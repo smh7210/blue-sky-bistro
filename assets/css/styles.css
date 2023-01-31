@@ -326,3 +326,45 @@ h4 {
   display: flex;
   justify-content: space-between;
 }
+
+.gallery {
+  background-color: #111;
+  display: flex;
+}
+
+.gallery__header {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+  padding-block: 30px;
+}
+
+.gallery__heading {
+  font-family: "shadows into light", serif;
+  margin-left: 400px;
+  font-size: 36px;
+  text-transform: none;
+  font-weight: light;
+}
+
+.gallery__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.gallery__link:hover {
+  color: #fff;
+}
+
+.gallery__image img {
+  width: 347px;
+}
+
+.gallery__images {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 30px 10px;
+}
